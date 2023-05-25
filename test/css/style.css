@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Hiragino Kaku Gothic Pro','Meiryo',sans-serif;
+    font-size: 15px;
+    border-top: 10px solid #7ed2f3 !important;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    width: auto;
+    height: 100px;
+}
+.w_inner {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header ul {
+    display: flex;
+}
+.header ul li {
+    width: 200px;
+    text-align: center;
+    border-right: 1px solid #ddd;
+}
+.header ul li:first-child{
+    border-left: 1px solid #ddd;
+}
+.header ul a {
+    display: block;
+}
+.header_img {
+    text-align: center;
+    margin-top: 20px;
+    width: auto;
+}
+.container_service .service_block {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+.container_service .service {
+    width: 380px;
+    text-align: center;
+}
+.container_service h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.container_service .service img {
+    margin-bottom: 20px;
+}
+.container_service .service .ttl {
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.container_service .service .explain {
+    margin-bottom: 20px;
+}
+.container_service .service a{
+    background: #7ed2f3;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
+.footer {
+    text-align: center;
+    background: #7ed2f3;
+    color: #fff;
+    font-size: 12px;
+    padding: 7px 0 3px;
+}
