@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body {
+    font-size: 125%;
+    background: whitesmoke;
+    font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 40%;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    height: 80px;
+    background-color: #b0c4de80;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 250%;
+}
+
+
+.box {
+    margin-top: 80px;
+    background: aliceblue;
+} 
+
+.aboutbg {
+    padding-top: 20px;
+    font-size: larger;
+}
+
+.about {
+    margin-bottom: 25px;
+    margin-left: 15px;
+}
+
+#name {
+    color: #00bfff;
+}
+
+.birthday {
+    color: #ff00ff;
+}
+
+.from {
+    color: #e8ae00;
+}
+
+.brad {
+    color: red;
+}
+
+.star {
+    color: green;
+}
+
+.hobby {
+    color: blueviolet;
+}
+
+.info {
+    text-align: center;
+}
+
+.aboutgames {
+    padding-bottom: 30px;
+    background-color: whitesmoke;
+}+
+
+.a {
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.gamebox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gamebox .game {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.gamebox .game img {
+    width: 100%;
+    height: auto;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.gamebox .game a {
+    background: #7ed2f3;
+    color: #fff;
+    padding: 15px 20px 12px;
+}
+
+.snsinfo {
+    background: lightgoldenrodyellow;
+    padding-bottom: 20px;
+}
+
+.b {
+    text-align: center;
+    font-size: larger;
+    margin-bottom: 10px;
+}
+
+.sns_block {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sns {
+    width: 100px;
+    height: auto;
+    background-color: white;
+}
+
+footer {
+    background: #b0c4de80;
+    font-size: 100%;
+    text-align: center;
+    padding: 10px 10px;
+}
+
+@media screen and (orientation: portrait) {
+    img {
+        width: 100%;
+        height: auto;
+    }
+
+}
